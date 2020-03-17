@@ -485,6 +485,7 @@ class StixRelationCreationFromEntity extends Component {
       first_seen: dayStartDate(),
       last_seen: dayStartDate(),
       description: '',
+      createdByRef: '',
       killChainPhases: [],
       markingDefinitions: [],
     };
